@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FFFFFF">
     <title>Understanding the Cycle of Addiction: First Steps to Breaking Free | MindBriz</title>
-    <meta name="description" content="Learn about the cycle of addiction, its stages, and practical steps to break free. Expert insights and resources for recovery.">
+    <meta name="description" content="Learn about the cycle of addiction and discover effective strategies to break free. Expert insights on recovery and healing.">
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="blog.css">
     <!-- Add Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Theme Switcher -->
+    <button class="theme-switcher" id="themeSwitcher" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <!-- Progress bar -->
     <div class="progress-container">
         <div class="progress-bar"></div>
@@ -19,7 +25,13 @@
     <!-- Header -->
     <header class="site-header">
         <div class="container">
-            <a href="../index.html" class="logo">MindBriz</a>
+            <a href="../index.html" class="logo-container">
+                <div class="logo-icon"></div>
+                <div>
+                    <span class="logo-text">MindBriz</span>
+                    <div class="tagline">Your Path to Mental Wellbeing</div>
+                </div>
+            </a>
             <nav>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
@@ -39,20 +51,20 @@
             <header class="blog-post-header">
                 <div class="blog-post-meta">
                     <span class="blog-category">Addiction Recovery</span>
-                    <span class="blog-date">May 15, 2024</span>
+                    <span class="blog-date">March 10, 2024</span>
                     <span class="reading-time"></span>
                 </div>
                 <h1>Understanding the Cycle of Addiction: First Steps to Breaking Free</h1>
                 <div class="blog-author">
-                    <img src="../images/author-sarah.jpg" alt="Dr. Sarah Thompson" class="author-image">
+                    <img src="../images/author-sarah.jpg" alt="Sarah Johnson" class="author-image">
                     <div class="author-info">
-                        <span class="author-name">Dr. Sarah Thompson</span>
-                        <span class="author-title">Clinical Psychologist, Addiction Specialist</span>
+                        <span class="author-name">Sarah Johnson</span>
+                        <span class="author-title">Addiction Recovery Specialist</span>
                     </div>
                 </div>
             </header>
 
-            <img src="../images/addiction-cycle.jpg" alt="The cycle of addiction illustrated" class="featured-image">
+            <img src="../images/addiction-cycle.jpg" alt="Breaking free from addiction cycle" class="featured-image">
 
             <!-- Table of Contents -->
             <div class="table-of-contents">
@@ -62,85 +74,100 @@
 
             <!-- Article Content -->
             <div class="content-body">
-                <h2>Understanding the Cycle of Addiction</h2>
-                <p>Addiction is a complex cycle that can feel impossible to break. Understanding this cycle is the first crucial step toward recovery. The cycle typically consists of four main stages: trigger, craving, use, and consequences.</p>
+                <h2>The Nature of Addiction</h2>
+                <p>Addiction is a complex condition that affects both the brain and behavior. Understanding its cyclical nature is crucial for breaking free from its grip. This article explores the stages of addiction and provides practical steps for recovery.</p>
 
                 <div class="info-box">
-                    <h3>The Four Stages of Addiction</h3>
-                    <ol>
-                        <li><strong>Triggers</strong> External or internal stimuli that initiate thoughts about substance use</li>
-                        <li><strong>Cravings</strong> Intense desire or urge to engage in the addictive behavior</li>
-                        <li><strong>Use</strong> The actual engagement in the addictive behavior</li>
-                        <li><strong>Consequences</strong> The aftermath, including guilt, shame, and physical effects</li>
-                    </ol>
+                    <h3>Key Components of Addiction</h3>
+                    <ul>
+                        <li><strong>Physical Dependence</strong> Changes in brain chemistry and tolerance</li>
+                        <li><strong>Psychological Cravings</strong> Intense desires and compulsive behaviors</li>
+                        <li><strong>Social Impact</strong> Effects on relationships and daily life</li>
+                        <li><strong>Environmental Triggers</strong> Situations and stimuli that prompt use</li>
+                    </ul>
+                </div>
+
+                <h2>The Addiction Cycle</h2>
+                <p>Understanding the cycle of addiction is the first step toward breaking free. Here's how it typically works:</p>
+
+                <div class="cycle-stages">
+                    <div class="stage-card">
+                        <h4>1. Initial Use</h4>
+                        <p>First exposure to the substance or behavior</p>
+                    </div>
+                    <div class="stage-card">
+                        <h4>2. Regular Use</h4>
+                        <p>Increasing frequency and quantity</p>
+                    </div>
+                    <div class="stage-card">
+                        <h4>3. Tolerance</h4>
+                        <p>Need for more to achieve same effect</p>
+                    </div>
+                    <div class="stage-card">
+                        <h4>4. Dependence</h4>
+                        <p>Physical and psychological reliance</p>
+                    </div>
+                    <div class="stage-card">
+                        <h4>5. Addiction</h4>
+                        <p>Loss of control and compulsive behavior</p>
+                    </div>
                 </div>
 
                 <h2>Breaking the Cycle</h2>
-                <p>Breaking free from addiction requires a comprehensive approach that addresses each stage of the cycle. Here are key strategies for each phase:</p>
+                <p>Recovery is possible with the right support and strategies. Here are key steps to begin breaking free:</p>
 
-                <div class="strategy-grid">
-                    <div class="strategy-card">
-                        <h4>Managing Triggers</h4>
-                        <ul>
-                            <li>Identify personal triggers</li>
-                            <li>Create a trigger diary</li>
-                            <li>Develop avoidance strategies</li>
-                            <li>Build healthy coping mechanisms</li>
-                        </ul>
+                <div class="recovery-steps">
+                    <div class="step-card">
+                        <h4>1. Acknowledge the Problem</h4>
+                        <p>Recognize and accept the reality of addiction</p>
                     </div>
-                    <div class="strategy-card">
-                        <h4>Handling Cravings</h4>
-                        <ul>
-                            <li>Practice mindfulness</li>
-                            <li>Use distraction techniques</li>
-                            <li>Exercise regularly</li>
-                            <li>Seek support immediately</li>
-                        </ul>
+                    <div class="step-card">
+                        <h4>2. Seek Professional Help</h4>
+                        <p>Connect with addiction specialists and support groups</p>
                     </div>
-                    <div class="strategy-card">
-                        <h4>Preventing Use</h4>
-                        <ul>
-                            <li>Develop an emergency plan</li>
-                            <li>Remove access to substances</li>
-                            <li>Build a support network</li>
-                            <li>Practice refusal skills</li>
-                        </ul>
+                    <div class="step-card">
+                        <h4>3. Develop a Support System</h4>
+                        <p>Build relationships with understanding friends and family</p>
+                    </div>
+                    <div class="step-card">
+                        <h4>4. Create a Recovery Plan</h4>
+                        <p>Set goals and establish healthy coping mechanisms</p>
                     </div>
                 </div>
 
                 <h2>The Role of Professional Support</h2>
-                <p>Professional support is crucial in breaking the addiction cycle. Different types of support are available to meet various needs:</p>
+                <p>Professional help can provide the structure and guidance needed for successful recovery:</p>
 
                 <div class="support-options">
                     <div class="support-item">
-                        <h4>Therapy Options</h4>
+                        <h4>Treatment Options</h4>
                         <ul>
-                            <li>Cognitive Behavioral Therapy (CBT)</li>
-                            <li>Motivational Interviewing</li>
-                            <li>Group Therapy</li>
-                            <li>Family Therapy</li>
+                            <li>Individual counseling</li>
+                            <li>Group therapy</li>
+                            <li>Medication-assisted treatment</li>
+                            <li>Inpatient rehabilitation</li>
                         </ul>
                     </div>
                     <div class="support-item">
-                        <h4>Treatment Programs</h4>
+                        <h4>Support Services</h4>
                         <ul>
-                            <li>Outpatient Programs</li>
-                            <li>Intensive Outpatient Programs</li>
-                            <li>Residential Treatment</li>
-                            <li>Support Groups</li>
+                            <li>24/7 crisis hotlines</li>
+                            <li>Recovery coaching</li>
+                            <li>Family support programs</li>
+                            <li>Aftercare planning</li>
                         </ul>
                     </div>
                 </div>
 
-                <h2>Taking Action Today</h2>
+                <h2>Immediate Action Steps</h2>
                 <div class="action-steps">
-                    <h3>Immediate Steps You Can Take</h3>
+                    <h3>What You Can Do Today:</h3>
                     <ol>
-                        <li>Acknowledge the need for change</li>
+                        <li>Contact a local addiction helpline</li>
+                        <li>Research treatment options in your area</li>
                         <li>Reach out to a trusted friend or family member</li>
-                        <li>Contact a professional counselor or addiction specialist</li>
-                        <li>Join a support group</li>
-                        <li>Create a daily recovery plan</li>
+                        <li>Begin documenting your triggers and patterns</li>
+                        <li>Consider joining a support group</li>
                     </ol>
                 </div>
 
@@ -148,9 +175,9 @@
                 <div class="resources-section">
                     <h2>Additional Resources</h2>
                     <div class="resource-links">
-                        <a href="#" class="btn">Download Recovery Workbook</a>
-                        <a href="#" class="btn">Find Local Support Groups</a>
-                        <a href="#" class="btn">Crisis Helpline Directory</a>
+                        <a href="#" class="btn">Find Treatment Centers</a>
+                        <a href="#" class="btn">Join Support Groups</a>
+                        <a href="#" class="btn">Access Recovery Tools</a>
                     </div>
                 </div>
             </div>
@@ -177,17 +204,17 @@
                 <div class="related-posts">
                     <h3>Related Articles</h3>
                     <div class="related-grid">
-                        <a href="#" class="related-card">
-                            <img src="../images/mindfulness.jpg" alt="Mindfulness techniques">
-                            <h4>Mindfulness Techniques for Recovery</h4>
+                        <a href="recovery-journey.html" class="related-card">
+                            <img src="../images/recovery-journey.jpg" alt="Recovery journey">
+                            <h4>Your Recovery Journey: A Personal Guide</h4>
                         </a>
-                        <a href="#" class="related-card">
-                            <img src="../images/support-network.jpg" alt="Building support network">
-                            <h4>Building a Strong Support Network</h4>
+                        <a href="support-system.html" class="related-card">
+                            <img src="../images/support-system.jpg" alt="Building support system">
+                            <h4>Building a Strong Support System</h4>
                         </a>
-                        <a href="#" class="related-card">
+                        <a href="relapse-prevention.html" class="related-card">
                             <img src="../images/relapse-prevention.jpg" alt="Relapse prevention">
-                            <h4>Strategies for Preventing Relapse</h4>
+                            <h4>Understanding and Preventing Relapse</h4>
                         </a>
                     </div>
                 </div>
@@ -229,6 +256,8 @@
         </div>
     </footer>
 
+    <!-- Add JavaScript files -->
+    <script src="../theme.js"></script>
     <script src="blog.js"></script>
 </body>
 </html> 

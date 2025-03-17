@@ -276,7 +276,7 @@ nav a:hover {
   /* Games Section */
   .games {
     padding: 4rem 5%;
-    background: var(--white);
+    background: var(--border-color);
   }
   
   .games-container {

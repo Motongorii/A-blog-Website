@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const metaThemeColor = document.querySelector('meta[name="theme-color"]');
         if (metaThemeColor) {
             metaThemeColor.setAttribute('content', 
-                theme === 'light' ? '#FFFFFF' : '#1A1D21'
+                theme === 'light' ? '#FFFFFF' : '#1A1D22'
             );
         }
 
